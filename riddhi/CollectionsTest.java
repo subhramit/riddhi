@@ -14,9 +14,11 @@ public class CollectionsTest {
         //but that would cause breach of encapsulation principle
         //wrked
 
-        Iterator<Integer> itr = list.iterator();
-        while(itr.hasNext())
-            System.out.println(itr.next());
+        // Iterator<Integer> itr = list.iterator();
+        // while(itr.hasNext())
+        //     System.out.println(itr.next());
 
+        for(int x: list)
+            System.out.println(x);
     }
 }
