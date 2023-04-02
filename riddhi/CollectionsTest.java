@@ -18,7 +18,7 @@ public class CollectionsTest {
         // while(itr.hasNext())
         //     System.out.println(itr.next());
 
-        for(int x: list)
+        for(Object x: list)
             System.out.println(x);
     }
 }
